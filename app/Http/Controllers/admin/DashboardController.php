@@ -18,6 +18,14 @@ class DashboardController extends Controller
         return view('admin.dashboard', compact('pengaduans'));
     }
 
+    // Export PDF
+    public function exportPdf()
+    {
+        $pengaduans = Pengaduan::all();
+        $pdf = \Barryvdh\DomPDF\Facade\Pdf::loadView('admin.pengaduan_pdf', compact('pengaduans'));
+        return $pdf->download('data_pengaduan.pdf');
+    }
+
     public function updateStatus(Request $request, $id)
     {
         $request->validate([

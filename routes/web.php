@@ -29,6 +29,7 @@ Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('adm
 Route::post('/admin/pengaduan/{id}/status', [DashboardController::class, 'updateStatus'])->name('admin.pengaduan.status');
 Route::get('/admin/laporan', [DashboardController::class, 'laporan'])->name('admin.laporan');
 Route::get('/admin/pengaduan/{id}/detail', [DashboardController::class, 'detailPengaduan'])->name('admin.pengaduan.detail');
+Route::get('/admin/pengaduan/export-pdf', [DashboardController::class, 'exportPdf'])->name('admin.pengaduan.exportPdf');
 
 Route::get('/petugas/dashboard', function () {
     return view('petugas.dashboard');
