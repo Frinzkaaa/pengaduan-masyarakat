@@ -1,16 +1,16 @@
 ## 📷 Tampilan Aplikasi
 
 ### Landing Page
-![Landing Page](public/img/dasboard-user.png)
+![Landing Page](public/dashboard-user.png)
 
 ### Form Laporan Pengaduan
-![Landing Page](public/img/form-pelaporan.png)
+![Landing Page](public/form-pelaporan.png)
 
 ### Dashboard Admin
-![Admin_Dashboard](public/img/dashboard-admin.png)
+![Admin_Dashboard](public/dashboard-admin.png)
 
 ### Pelaporan
-![Pelaporan](public/img/pelaporan.png)
+![Pelaporan](public/pelaporan.png)
 
 ### View Pelaporan
-![View_Pelaporan](public/img/view-pelaporan.png)
+![View_Pelaporan](public/view-pelaporan.png)
